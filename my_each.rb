@@ -13,3 +13,5 @@ def my_each(array)
  my_each(array) do |name|
    puts name 
  end 
+ return array 
+ end
